@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Kusnul Khotimah</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="page-glow"></div>
+
+    <header class="site-header">
+        <a href="index.html" class="brand">
+            <span class="brand-mark">K</span>
+            Kusnul<span class="brand-dot">.</span>
+        </a>
+
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+
+        <button class="theme-toggle" aria-label="Ganti tema">☾</button>
+        <button class="menu-toggle" aria-label="Buka menu">☰</button>
+    </header>
+
+    <main class="section-wrap">
+
+        <section class="page-hero contact-hero">
+            <p class="eyebrow">
+                <span class="eyebrow-line"></span>
+                LET'S CONNECT
+            </p>
+
+            <h1>Let's Talk<br><em>Together.</em></h1>
+
+            <p class="page-lead">
+                Punya pertanyaan, ide, atau ingin bekerja sama?
+                Saya senang bisa terhubung dengan kamu.
+                Silakan kirim pesan melalui formulir di bawah ini.
+            </p>
+        </section>
+
+        <section class="contact-layout">
+
+            <div class="contact-aside">
+
+                <p class="eyebrow">GET IN TOUCH</p>
+
+                <h2>I'd Love to<br><em>Hear From You.</em></h2>
+
+                <p>
+                    Setiap pesan sangat berarti bagi saya.
+                    Jangan ragu untuk menghubungi saya melalui
+                    formulir ini.
+                </p>
+
+                <div class="contact-detail">
+                    <span>✉</span>
+                    <div>
+                        <small>EMAIL</small>
+                        <strong>Contact via form</strong>
+                    </div>
+                </div>
+
+                <div class="contact-detail">
+                    <span>♡</span>
+                    <div>
+                        <small>RESPONSE</small>
+                        <strong>Let's connect together</strong>
+                    </div>
+                </div>
+
+                <p class="mini-note">
+                    THANK YOU FOR VISITING MY PORTFOLIO ✦
+                </p>
+
+            </div>
+
+            <div class="contact-form">
+
+                <div class="form-heading">
+                    <span>SEND ME A MESSAGE</span>
+                    <span class="form-spark">✳</span>
+                </div>
+
+                <form id="contactForm">
+
+                    <label for="name">Nama Lengkap</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        placeholder="Masukkan nama kamu"
+                        required>
+
+                    <label for="phone">Nomor WhatsApp</label>
+                    <input
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                        placeholder="Contoh: 081234567890"
+                        required>
+
+                    <label for="email">Alamat Email</label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        placeholder="nama@email.com"
+                        required>
+
+                    <label for="message">Pesan</label>
+                    <textarea
+                        id="message"
+                        name="message"
+                        rows="5"
+                        placeholder="Tuliskan pesan kamu di sini..."
+                        required></textarea>
+
+                    <p class="form-hint">
+                        Pastikan nomor WhatsApp yang kamu masukkan aktif.
+                    </p>
+
+                    <button type="submit" class="button button-primary submit-button">
+                        Kirim Pesan <span>→</span>
+                    </button>
+
+                    <p id="formFeedback" class="form-feedback" aria-live="polite"></p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <a href="index.html" class="brand">
+            <span class="brand-mark">K</span>
+            Kusnul<span class="brand-dot">.</span>
+        </a>
+
+        <p>
+            © <span id="year"></span> Kusnul Khotimah. All rights reserved.
+        </p>
+
+        <span>Made with ♡</span>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
